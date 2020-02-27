@@ -1,9 +1,13 @@
 package base.simulation;
 
+
+import base.simulation.gameLogic.Application;
+
 public class Main {
 
     public static void main(String[] args) {
-
-        Application simulation = new Application(100,3,10,2,1,60);
+        // instance of the simulation
+        Application simulation = new Application(100,3,2,40,60, 30);
+        simulation.run(10);
     }
 }

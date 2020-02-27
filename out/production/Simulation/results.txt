@@ -1,0 +1,4 @@
+Number of total blobs: 200
+Hawk population: 200
+Dove population: 200
+Dove population: 200

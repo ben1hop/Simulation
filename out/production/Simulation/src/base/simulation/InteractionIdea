@@ -1,0 +1,14 @@
+3 Types of behaviour:
+-fight
+-humility
+-defense
+
+fight-fight => food/2 and -1 energy both
+fight-humility => food/2 *1.5 && food/2 *0.5 and no energy lose
+fight-defense => 50% fight-humility senario defense lose 1 health || 50% share scenario attack lose -1 health
+
+humility-humility => share scenario
+defense-defense => share scenario
+humility-defense => share scenario
+
+share scenario := food/2 && food/2
